@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Serialize">
+      <UniqueIdentifier>{5d8aef74-edd2-4feb-9384-83f9b5ebee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TestScenario">
+      <UniqueIdentifier>{5d6ed9a2-2cdb-483c-8cc7-9d6f135d2097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Singleton">
+      <UniqueIdentifier>{d79f2d1a-d4ff-4b0e-a55c-393545fdf564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{64bf91b3-b311-4e40-9056-dbb9364e2de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataStructure">
+      <UniqueIdentifier>{a157d254-99de-4bd7-ab68-cea6396e4f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\GarbageCollection">
+      <UniqueIdentifier>{6cebfa47-0033-4bd8-abc7-330893edb3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\ObjectManager">
+      <UniqueIdentifier>{675aac60-68b7-45f9-b9a6-b6d18f4cc089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Replication">
+      <UniqueIdentifier>{6c5e4408-d100-484d-a037-139662b4cd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Server">
+      <UniqueIdentifier>{5340fa76-e1a0-4c8d-a7b5-568bdb02786f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{5a16a2db-db11-42a8-babb-2c0dbf41487a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Reflection">
+      <UniqueIdentifier>{95d7a56a-343f-4920-afe4-3886c5cea9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sample">
+      <UniqueIdentifier>{04476897-1d8f-4b67-a89d-a75e186ccc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Reflection\RelfectionHelper">
+      <UniqueIdentifier>{dfd8f657-41a4-4619-9438-036cb83df744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Client">
+      <UniqueIdentifier>{ca725e48-3a59-4bec-82fe-442d7046395b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReflectionHelper.h">
+      <Filter>소스 파일\Reflection\RelfectionHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Returner.h">
+      <Filter>소스 파일\Reflection\RelfectionHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Test1.h">
+      <Filter>소스 파일\TestScenario</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbageCollectionManager.h">
+      <Filter>소스 파일\Engine\GarbageCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="K_Array.h">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="K_List.h">
+      <Filter>소스 파일\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGame.h">
+      <Filter>소스 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEngine.h">
+      <Filter>소스 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>소스 파일\Engine\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Replication.h">
+      <Filter>소스 파일\Engine\Replication</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>소스 파일\Engine\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketProcessor.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputMemoryStream.h">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeClass.h">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>소스 파일\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadRegister.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\Engine\Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbageCollectionManager.cpp">
+      <Filter>소스 파일\Engine\GarbageCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEngine.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGame.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>소스 파일\Engine\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Replication.cpp">
+      <Filter>소스 파일\Engine\Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일\Engine\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketProcessor.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputMemoryStream.cpp">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimeClass.cpp">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>소스 파일\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadRegister.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>소스 파일\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\Engine\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
